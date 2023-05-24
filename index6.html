@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-6">
+      <button type="button" class="btn btn-primary" data-target="#myModal" data-toggle="modal">Register</button>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Register</h4>
+              <span class="close" data-dismiss="modal">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-5">
+                  <label for="Firstname" class=" float-right mt-3"><b>Full Name</b></label>
+                  <label for="e-mail" class="float-right mt-2"><b>E-mail Address</b></label>
+                  <label for="password" class="float-right mt-3"><b>Password</b></label>
+                  <label for="e-password" class="float-right mt-3"><b>Confirm Password</b></label>
+                </div>
+                <div class="col-md-7">
+                  <input type="text" placeholder="First Name" class="form-control form-check mt-2" id="Firstname">
+                  <input type="text" placeholder="Last Name" class="form-control form-check mt-2" id="e-mail">
+                  <input type="text" placeholder="Password" class="form-control form-check mt-2" id="password">
+                  <input type="text" placeholder="Confirm Password" class="form-control form-check mt-2" id="e-password">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-2 offset-5">
+                  <button type="button" class="btn btn-primary text-center text-white">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

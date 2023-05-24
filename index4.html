@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>6</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-6">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Open
+      </button>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog  modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Login</h3><span class="close" data-dismiss="modal">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-7">
+                  <h3>Use a local account to log In.</h3>
+                  <hr style="height: 2px;background-color: lightgray">
+                  <div class="row">
+                    <div class="col-md-4 float-right">
+                      <div class="row my-2">
+                        <div class="col-md-12">
+                          <label for="Email" style="margin-left: 100px">Email</label>
+                        </div>
+                      </div>
+                      <div class="row my-2"> 
+                        <div class="col-md-12">
+                          <label for="Password" style="margin-left: 70px">Password</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="row my-2">
+                        <div class="col-md-12">
+                          <input type="text" id="Email" style="width: 100%">
+                        </div>
+                      </div>
+                      <div class="row my-2">
+                        <div class="col-md-12">
+                          <input type="password" id="Password" style="width: 100%">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <input type="checkbox" id="rem">
+                          <label for="rem">Remember me?</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <button type="button" class="btn bg-white">Log in</button>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <a href="#">Register a new user</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <h3>Use another sentence to log in.</h3>
+                  <hr style="height: 2px;background-color: lightgray">
+                  <div class="row">
+                    <div class="col-md-12">
+                      Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit.
+                      Deserunt <a href="#">eligendi eum</a> ex
+                      expedita explicabo harum illo
+                      natus sunt tempora, voluptates.
+                      A delectus dignissimos eius
+                      fugiat, maxime nulla quos
+                      ratione ullam.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
